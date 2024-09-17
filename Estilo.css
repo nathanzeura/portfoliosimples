@@ -105,7 +105,7 @@ section {
     background-color: white;
     color: black;
     height: 600px;
-    width: auto;
+    width: 200px    ;
     align-items: center;
     font-family: 'Times New Roman';
     border-radius: 20px;
@@ -127,9 +127,13 @@ section {
 }
 
 .img-projeto {
-    width: auto;
+    width: 200px;
     height: 100px;
     padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+
 }
 
 button {
@@ -190,3 +194,4 @@ input {
     font-size: 20px;
     align-items: center;
 }
+
