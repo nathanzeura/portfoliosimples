@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+ }
+body {
+    padding: 0px;
+    margin-right: 0px;
+    background-color: #4950bc;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 0px 5%;
+}
+
+/* Menu principal */
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    opacity: 50%;
+    color: rgb(43, 1, 255);
+}
+
+section {
+    padding: 10px 0px;
+}
+
+/* Sobre */
+
+.container-sobre {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 600px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    font-family: 'ARIAL';
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container-sobre h2 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.container-sobre p {
+    font-size: 15pt;
+}
+
+.img-Dutra {
+    transform: translateY(10%);
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background-color: black;
+    color: white;
+}
+
+.fa-youtube {
+    background-color: rgb(0, 13, 255);
+    color: white;
+}
+
+/* Projetos */
+
+.container-Projetos {
+    background-color: white;
+    color: black;
+    height: 600px;
+    width: auto;
+    align-items: center;
+    font-family: 'Times New Roman';
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Text-h2 {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.container-Projetos table tr th h6  {
+    font-size: 20px;
+}
+
+.container-Projetos table tr th p  {
+    font-size: 12px;
+}
+
+.img-projeto {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.container-Contato {
+    background-color: #4950bc;
+    color: rgb(255, 255, 255);
+    height: 700px;
+    width: auto;
+    align-items: center;
+    font-family: 'Times New Roman';
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0);
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.msg {
+    width: 500px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.container-Contato button {
+    color: #4950bc;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: dimgrey;
+    color: white;
+    height: 30px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
